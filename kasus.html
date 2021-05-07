@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>REGISTER FORM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Daftar</h1>
+            <p>Ini cepat dan mudah</p>
+        </header>
+
+        <hr>
+
+        <form class="register">
+            <input class="for-input" id="fname" type="text" name="fname" placeholder="Nama depan">
+            <input class="for-input" id="lname" type="text" name="lname" placeholder="Nama belakang">
+
+            <input class="for-input" type="text" name="phmail" placeholder="Nomor seluler atau email">
+            <br>
+            <input class="for-input" type="password" name="pass" placeholder="Kata sandi baru">
+
+            <p class="note">Tanggal Lahir <img src="css/question-circle.svg" alt="question circle" width="13px"></p>
+            <select class="for-input" name="day">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+            </select>
+
+            <select class="for-input" name="month">
+                <option>Jan</option>
+                <option>Feb</option>
+                <option>Mar</option>
+                <option>Apr</option>
+                <option>Mei</option>
+                <option>Jun</option>
+                <option>Jul</option>
+                <option>Sep</option>
+                <option>Okt</option>
+                <option>Nov</option>
+                <option>Des</option>
+            </select>
+
+            <select class="for-input" name="year">
+                <option>2012</option>
+                <option>2013</option>
+                <option>2014</option>
+                <option>2015</option>
+                <option>2016</option>
+                <option>2017</option>
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+            </select>
+
+            <p class="note">Jenis Kelamin <img src="css/question-circle.svg" alt="question circle" width="13px"></p>
+            <div class="gender-select">
+                <label class="for-input" for="girl">
+                    Perempuan<input type="radio" id="girl" name="gender" value="1">
+                </label>
+
+                <label class="for-input" for="boy">
+                    Laki-laki<input type="radio" id="boy" name="gender" value="2">
+                </label>
+
+                <label class="for-input" for="other">
+                    Khusus<input type="radio" id="other" name="gender" value="3">
+                </label>
+            </div>
+
+            <br>
+
+            <p class="terms">
+                Dengan mengklik Daftar, Anda menyetujui
+                <a href="#">Ketentuan</a>,
+                <a href="#">Kebijakan Data</a> dan
+                <a href="#">Kebijakan Cookie</a> kami.
+                Anda akan menerima Notifikasi SMS dari Facebook dan dapat menolaknya kapan saja.
+            </p>
+
+            <button class="submit" type="submit">Daftar</button>
+        </form>
+    </div>
+</body>
+
+</html>
